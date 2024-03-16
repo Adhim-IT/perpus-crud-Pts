@@ -102,6 +102,14 @@
                 </div>
             @enderror
         </div>
-        <button type="submit" class="btn btn-primary">Edit</button>
+        <div class="container">
+            <div class="row">
+                <button type="submit" class="btn btn-primary">Edit</button>
+                <a href="{{ route('buku.index') }}" style="margin-left: 10px" >
+                    <button class="btn btn-warning">Kembali</button>
+                </a>
+            </div>
+        </div>
+
     </form>
 @endsection

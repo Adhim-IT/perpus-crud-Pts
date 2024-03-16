@@ -43,7 +43,7 @@
                         @method('delete')
                         <button type="submit" class="btn btn-sm btn-danger">Hapus</button>
                         </form>
-                        <a href="{{route('buku.show' , $book->id )}}"" class = " btn btn-sm btn-info">Show</a>
+                        <a href="{{route('buku.show' , $book->id )}}" class = " btn btn-sm btn-info">Show</a>
                     </td>
                 </tr>
                 @endforeach
@@ -53,5 +53,5 @@
     <a href="{{route('buku.create')}}">
         <button class="btn btn-primary float-end d-block">Tambah</button>
     </a>
-    @include('sweetalert::alert') 
+    @include('sweetalert::alert')
 @endsection
